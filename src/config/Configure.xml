@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <setting name="jdbcTypeForNull" value="NULL"/>
+    </settings>
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor"></plugin>
+    </plugins>
+    <!--<typeAliases><package name="bean"></package></typeAliases>-->
+    <environments default="development">
+        <!--allow to define multiple environments-->
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://127.0.0.1:3306/gtd_data?allowMultiQueries=true"/>
+                <property name="username" value="root"/>
+                <property name="password" value="abcd=!@#"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <!--attribute: resourse= or url=-->
+        <mapper resource="mapper/TerrorEvent.xml"/>
+    </mappers>
+</configuration>

@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace tied to interface-->
+<mapper namespace="dao.EventMapper">
+    <resultMap id="BaseResultMap" type="bean.TerrorEvent">
+        <id column="eventid" jdbcType="CHAR" property="eventid" />
+        <result column="iyear" jdbcType="INTEGER" property="iyear" />
+        <result column="imonth" jdbcType="INTEGER" property="imonth" />
+        <result column="iday" jdbcType="INTEGER" property="iday" />
+        <result column="approxdate" jdbcType="VARCHAR" property="approxdate" />
+        <result column="extended" jdbcType="INTEGER" property="extended" />
+        <result column="resolution" jdbcType="VARCHAR" property="resolution" />
+        <result column="country" jdbcType="INTEGER" property="country" />
+        <result column="country_txt" jdbcType="VARCHAR" property="country_txt" />
+        <result column="region" jdbcType="INTEGER" property="region" />
+        <result column="region_txt" jdbcType="VARCHAR" property="region_txt" />
+        <result column="provstate" jdbcType="VARCHAR" property="provstate" />
+        <result column="city" jdbcType="VARCHAR" property="city" />
+        <result column="latitude" jdbcType="INTEGER" property="latitude" />
+        <result column="longitude" jdbcType="INTEGER" property="longitude" />
+        <result column="specificity" jdbcType="INTEGER" property="specificity" />
+        <result column="vicinity" jdbcType="INTEGER" property="vicinity" />
+        <result column="crit1" jdbcType="INTEGER" property="crit1" />
+        <result column="crit2" jdbcType="INTEGER" property="crit2" />
+        <result column="crit3" jdbcType="INTEGER" property="crit3" />
+        <result column="doubtterr" jdbcType="INTEGER" property="doubtterr" />
+        <result column="alternative" jdbcType="INTEGER" property="alternative" />
+        <result column="multiple" jdbcType="INTEGER" property="multiple" />
+        <result column="success" jdbcType="INTEGER" property="success" />
+        <result column="suicide" jdbcType="INTEGER" property="suicide" />
+        <result column="attacktype1" jdbcType="INTEGER" property="attacktype1" />
+        <result column="attacktype1_txt" jdbcType="VARCHAR" property="attacktype1_txt" />
+        <result column="attacktype2" jdbcType="INTEGER" property="attacktype2" />
+        <result column="attacktype2_txt" jdbcType="VARCHAR" property="attacktype2_txt" />
+        <result column="attacktype3" jdbcType="INTEGER" property="attacktype3" />
+        <result column="attacktype3_txt" jdbcType="VARCHAR" property="attacktype3_txt" />
+        <result column="targtype1" jdbcType="INTEGER" property="targtype1" />
+        <result column="targtype1_txt" jdbcType="VARCHAR" property="targtype1_txt" />
+        <result column="targsubtype1" jdbcType="INTEGER" property="targsubtype1" />
+        <result column="targsubtype1_txt" jdbcType="VARCHAR" property="targsubtype1_txt" />
+        <result column="corp1" jdbcType="VARCHAR" property="corp1" />
+        <result column="target1" jdbcType="VARCHAR" property="target1" />
+        <result column="natlty1" jdbcType="INTEGER" property="natlty1" />
+        <result column="natlty1_txt" jdbcType="VARCHAR" property="natlty1_txt" />
+        <result column="targtype2" jdbcType="INTEGER" property="targtype2" />
+        <result column="targtype2_txt" jdbcType="VARCHAR" property="targtype2_txt" />
+        <result column="targsubtype2" jdbcType="INTEGER" property="targsubtype2" />
+        <result column="targsubtype2_txt" jdbcType="VARCHAR" property="targsubtype2_txt" />
+        <result column="corp2" jdbcType="VARCHAR" property="corp2" />
+        <result column="target2" jdbcType="VARCHAR" property="target2" />
+        <result column="natlty2" jdbcType="INTEGER" property="natlty2" />
+        <result column="natlty2_txt" jdbcType="VARCHAR" property="natlty2_txt" />
+        <result column="targtype3" jdbcType="INTEGER" property="targtype3" />
+        <result column="targtype3_txt" jdbcType="VARCHAR" property="targtype3_txt" />
+        <result column="targsubtype3" jdbcType="INTEGER" property="targsubtype3" />
+        <result column="targsubtype3_txt" jdbcType="VARCHAR" property="targsubtype3_txt" />
+        <result column="corp3" jdbcType="VARCHAR" property="corp3" />
+        <result column="target3" jdbcType="VARCHAR" property="target3" />
+        <result column="natlty3" jdbcType="INTEGER" property="natlty3" />
+        <result column="natlty3_txt" jdbcType="VARCHAR" property="natlty3_txt" />
+        <result column="gname" jdbcType="VARCHAR" property="gname" />
+        <result column="gsubname" jdbcType="VARCHAR" property="gsubname" />
+        <result column="gname2" jdbcType="VARCHAR" property="gname2" />
+        <result column="gsubname2" jdbcType="VARCHAR" property="gsubname2" />
+        <result column="gname3" jdbcType="VARCHAR" property="gname3" />
+        <result column="gsubname3" jdbcType="VARCHAR" property="gsubname3" />
+        <result column="motive" jdbcType="VARCHAR" property="motive" />
+        <result column="guncertain1" jdbcType="INTEGER" property="guncertain1" />
+        <result column="guncertain2" jdbcType="INTEGER" property="guncertain2" />
+        <result column="guncertain3" jdbcType="INTEGER" property="guncertain3" />
+        <result column="individual" jdbcType="INTEGER" property="individual" />
+        <result column="nperps" jdbcType="INTEGER" property="nperps" />
+        <result column="nperpcap" jdbcType="INTEGER" property="nperpcap" />
+        <result column="claimed" jdbcType="INTEGER" property="claimed" />
+        <result column="claimmode" jdbcType="INTEGER" property="claimmode" />
+        <result column="claimmode_txt" jdbcType="VARCHAR" property="claimmode_txt" />
+        <result column="claim2" jdbcType="INTEGER" property="claim2" />
+        <result column="claimmode2" jdbcType="INTEGER" property="claimmode2" />
+        <result column="claimmode2_txt" jdbcType="VARCHAR" property="claimmode2_txt" />
+        <result column="claim3" jdbcType="INTEGER" property="claim3" />
+        <result column="claimmode3" jdbcType="INTEGER" property="claimmode3" />
+        <result column="claimmode3_txt" jdbcType="VARCHAR" property="claimmode3_txt" />
+        <result column="compclaim" jdbcType="INTEGER" property="compclaim" />
+        <result column="weaptype1" jdbcType="INTEGER" property="weaptype1" />
+        <result column="weaptype1_txt" jdbcType="VARCHAR" property="weaptype1_txt" />
+        <result column="weapsubtype1" jdbcType="INTEGER" property="weapsubtype1" />
+        <result column="weapsubtype1_txt" jdbcType="VARCHAR" property="weapsubtype1_txt" />
+        <result column="weaptype2" jdbcType="INTEGER" property="weaptype2" />
+        <result column="weaptype2_txt" jdbcType="VARCHAR" property="weaptype2_txt" />
+        <result column="weapsubtype2" jdbcType="INTEGER" property="weapsubtype2" />
+        <result column="weapsubtype2_txt" jdbcType="VARCHAR" property="weapsubtype2_txt" />
+        <result column="weaptype3" jdbcType="INTEGER" property="weaptype3" />
+        <result column="weaptype3_txt" jdbcType="VARCHAR" property="weaptype3_txt" />
+        <result column="weapsubtype3" jdbcType="INTEGER" property="weapsubtype3" />
+        <result column="weapsubtype3_txt" jdbcType="VARCHAR" property="weapsubtype3_txt" />
+        <result column="weaptype4" jdbcType="INTEGER" property="weaptype4" />
+        <result column="weaptype4_txt" jdbcType="VARCHAR" property="weaptype4_txt" />
+        <result column="weapsubtype4" jdbcType="INTEGER" property="weapsubtype4" />
+        <result column="weapsubtype4_txt" jdbcType="VARCHAR" property="weapsubtype4_txt" />
+        <result column="nkill" jdbcType="INTEGER" property="nkill" />
+        <result column="nkillus" jdbcType="INTEGER" property="nkillus" />
+        <result column="nkillter" jdbcType="INTEGER" property="nkillter" />
+        <result column="nwound" jdbcType="INTEGER" property="nwound" />
+        <result column="nwoundus" jdbcType="INTEGER" property="nwoundus" />
+        <result column="nwoundte" jdbcType="INTEGER" property="nwoundte" />
+        <result column="property" jdbcType="INTEGER" property="property" />
+        <result column="propextent" jdbcType="INTEGER" property="propextent" />
+        <result column="propextent_txt" jdbcType="VARCHAR" property="propextent_txt" />
+        <result column="propvalue" jdbcType="DOUBLE" property="propvalue" />
+        <result column="propcomment" jdbcType="VARCHAR" property="propcomment" />
+        <result column="ishostkid" jdbcType="INTEGER" property="ishostkid" />
+        <result column="nhostkid" jdbcType="INTEGER" property="nhostkid" />
+        <result column="nhostkidus" jdbcType="INTEGER" property="nhostkidus" />
+        <result column="nhours" jdbcType="DOUBLE" property="nhours" />
+        <result column="ndays" jdbcType="INTEGER" property="ndays" />
+        <result column="divert" jdbcType="VARCHAR" property="divert" />
+        <result column="kidhijcountry" jdbcType="VARCHAR" property="kidhijcountry" />
+        <result column="ransom" jdbcType="INTEGER" property="ransom" />
+        <result column="ransomamt" jdbcType="DOUBLE" property="ransomamt" />
+        <result column="ransomamtus" jdbcType="INTEGER" property="ransomamtus" />
+        <result column="ransompaid" jdbcType="DOUBLE" property="ransompaid" />
+        <result column="ransompaidus" jdbcType="DOUBLE" property="ransompaidus" />
+        <result column="hostkidoutcome" jdbcType="INTEGER" property="hostkidoutcome" />
+        <result column="nreleased" jdbcType="INTEGER" property="nreleased" />
+        <result column="addnotes" jdbcType="VARCHAR" property="addnotes" />
+        <result column="dbsource" jdbcType="CHAR" property="dbsource" />
+        <result column="INT_LOG" jdbcType="INTEGER" property="INT_LOG" />
+        <result column="INT_IDEO" jdbcType="INTEGER" property="INT_IDEO" />
+        <result column="INT_MISC" jdbcType="INTEGER" property="INT_MISC" />
+        <result column="INT_ANY" jdbcType="INTEGER" property="INT_ANY" />
+        <result column="location" jdbcType="LONGVARCHAR" property="location" />
+        <result column="summary" jdbcType="LONGVARCHAR" property="summary" />
+        <result column="alternative_txt" jdbcType="LONGVARCHAR" property="alternative_txt" />
+        <result column="weapdetail" jdbcType="LONGVARBINARY" property="weapdetail" />
+        <result column="ransomnote" jdbcType="LONGVARCHAR" property="ransomnote" />
+        <result column="hostkidoutcome_txt" jdbcType="LONGVARCHAR" property="hostkidoutcome_txt" />
+        <result column="scite1" jdbcType="LONGVARCHAR" property="scite1" />
+        <result column="scite2" jdbcType="LONGVARCHAR" property="scite2" />
+        <result column="scite3" jdbcType="LONGVARCHAR" property="scite3" />
+    </resultMap>
+    <!--id tied to abstract method of interface
+    public TerrorEvent getEventId(Integer id);-->
+    <select id="getDefaultEvent" resultMap="BaseResultMap">
+        SELECT *
+        FROM tevent_all_info
+        ORDER BY IDX DESC
+        LIMIT 0,50
+    </select>
+<!--search update event-->
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap">
+        SELECT *
+        FROM tevent_all_info
+        WHERE eventid = #{eventid}
+    </select>
+
+    <!--count event-->
+
+    <select id="selectEventCount" resultType="java.lang.Integer">
+        SELECT COUNT(IDX)
+        FROM tevent_all_info
+    </select>
+    <select id="selectAttrCount" resultType="java.lang.Integer">
+        SELECT COUNT(a_id)
+        FROM tevent_attributes
+    </select>
+
+    <resultMap id="Attribute" type="bean.EventAttribute">
+        <result property="a_id" column="a_id"/>
+        <result property="attribute_name" column="attribute_name"/>
+    </resultMap>
+    <select id="getAttributes" resultMap="Attribute">
+        SELECT
+        attribute_name
+        FROM
+        tevent_attributes
+    </select>
+    <select id="getAttributesAll" resultMap="Attribute">
+        SELECT *
+        FROM
+        tevent_attributes
+    </select>
+<!--test: reference OGNL-->
+    <select id="getSearchEvent" resultMap="BaseResultMap">
+        SELECT * FROM tevent_all_info
+        <where>
+            <if test="eventid!=null and eventid!=''">
+                eventid = #{eventid}
+            </if>
+            <if test="IDX!=null and IDX!=0">
+                IDX = #{IDX}
+            </if>
+            <if test="iyear!=-1">
+                AND iyear = #{iyear}
+            </if>
+            <if test="imonth!=-1">
+                AND imonth = #{imonth}
+            </if>
+            <if test="iday!=-1">
+                AND iday = #{iday}
+            </if>
+            <!--the number of people killed-->
+            <if test="nkillMin==0 and nkillMax==0">
+                AND (nkill >= #{nkillMin} OR nkill = NULL)
+            </if>
+            <if test="nkillMin!=0 or nkillMax!=0">
+                AND nkill BETWEEN #{nkillMin} AND #{nkillMax}
+            </if>
+            <!--region-->
+            <if test="region_txt!=&quot;null&quot; and region_txt!=''">
+                AND region_txt LIKE #{region_txt}
+            </if>
+            <!--country-->
+            <if test="country_txt!=&quot;null&quot; and country_txt!=''">
+                AND country_txt LIKE #{country_txt}
+            </if>
+            <if test="targtype!=&quot;null&quot; and iday!=''">
+                AND (targtype1_txt LIKE #{targtype} OR
+                targtype2_txt LIKE #{targtype} OR
+                targtype3_txt LIKE #{targtype})
+            </if>
+            <if test="attacktype!=&quot;null&quot; and iday!=''">
+                AND (attacktype1_txt LIKE #{attacktype} OR
+                attacktype2_txt LIKE #{attacktype} OR
+                attacktype3_txt LIKE #{attacktype})
+            </if>
+            <if test="gname!=&quot;null&quot; and iday!=''">
+                AND (gname LIKE #{gname} OR
+                gname2 LIKE #{gname} OR
+                gname3 LIKE #{gname})
+            </if>
+        </where>
+    </select>
+
+    <delete id="deleteByPrimaryKey">
+        DELETE FROM tevent_all_info
+        WHERE eventid = #{eventid}
+    </delete>
+
+<!--insertSelective参数类型为泛型集合-->
+    <insert id="insertSelective" parameterType="java.util.List">
+        <!--以下批量插入方式需要设置MySQL服务器链接allowMultiQueries=true-->
+        <foreach collection="list"  item="item" separator=";">
+        insert into tevent_all_info set
+        <trim suffixOverrides=",">
+            <if test="item.eventid != null">
+                eventid=#{item.eventid,jdbcType=CHAR},
+            </if>
+            <if test="item.iyear != null">
+                iyear=#{item.iyear,jdbcType=INTEGER},
+            </if>
+            <if test="item.imonth != null">
+                imonth=#{item.imonth,jdbcType=INTEGER},
+            </if>
+            <if test="item.iday != null">
+                iday=#{item.iday,jdbcType=INTEGER},
+            </if>
+            <if test="item.approxdate != null">
+                approxdate=#{item.approxdate,jdbcType=VARCHAR},
+            </if>
+            <if test="item.extended != null">
+                extended=#{item.extended,jdbcType=INTEGER},
+            </if>
+            <if test="item.resolution != null">
+                resolution=#{item.resolution,jdbcType=VARCHAR},
+            </if>
+            <if test="item.country != null">
+                country=#{item.country,jdbcType=INTEGER},
+            </if>
+            <if test="item.country_txt != null">
+                country_txt=#{item.country_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="item.region != null">
+                region=#{item.region,jdbcType=INTEGER},
+            </if>
+            <if test="item.region_txt != null">
+                region_txt=#{item.region_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="item.provstate != null">
+                provstate=#{item.provstate,jdbcType=VARCHAR},
+            </if>
+            <if test="item.city != null">
+                city=#{item.city,jdbcType=VARCHAR},
+            </if>
+            <if test="item.latitude != null">
+                latitude=#{item.latitude,jdbcType=INTEGER},
+            </if>
+            <if test="item.longitude != null">
+                longitude=#{item.longitude,jdbcType=INTEGER},
+            </if>
+            <if test="item.specificity != null">
+                specificity=#{item.specificity,jdbcType=INTEGER},
+            </if>
+            <if test="item.vicinity != null">
+                vicinity=#{item.vicinity,jdbcType=INTEGER},
+            </if>
+            <if test="item.location != null">
+                location=#{item.location,jdbcType=VARCHAR},
+            </if>
+            <if test="item.summary != null">
+                summary=#{item.summary,jdbcType=VARCHAR},
+            </if>
+            <if test="item.crit1 != null">
+                crit1=#{item.crit1,jdbcType=INTEGER},
+            </if>
+            <if test="item.crit2 != null">
+                crit2=#{item.crit2,jdbcType=INTEGER},
+            </if>
+            <if test="item.crit3 != null">
+                crit3=#{item.crit3,jdbcType=INTEGER},
+            </if>
+            <if test="item.doubtterr != null">
+                doubtterr=#{item.doubtterr,jdbcType=INTEGER},
+            </if>
+            <if test="item.alternative != null">
+                alternative=#{item.alternative,jdbcType=INTEGER},
+            </if>
+            <if test="item.alternative_txt != null">
+                alternative_txt=#{item.alternative_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="item.multiple != null">
+                multiple=#{item.multiple,jdbcType=INTEGER},
+            </if>
+            <if test="item.success != null">
+                success=#{item.success,jdbcType=INTEGER},
+            </if>
+            <if test="item.suicide != null">
+                suicide=#{item.suicide,jdbcType=INTEGER},
+            </if>
+            <if test="item.attacktype1 != null">
+                attacktype1=#{item.attacktype1,jdbcType=INTEGER},
+            </if>
+            <if test="item.attacktype1_txt != null">
+                attacktype1_txt=#{item.attacktype1_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="item.attacktype2 != null">
+                attacktype2=#{item.attacktype2,jdbcType=INTEGER},
+            </if>
+            <if test="item.attacktype2_txt != null">
+                attacktype2_txt=#{item.attacktype2_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="item.attacktype3 != null">
+                attacktype3=#{item.attacktype3,jdbcType=INTEGER},
+            </if>
+            <if test="item.attacktype3_txt != null">
+                attacktype3_txt=#{item.attacktype3_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="item.targtype1 != null">
+                targtype1=#{item.targtype1,jdbcType=INTEGER},
+            </if>
+            <if test="item.targtype1_txt != null">
+                targtype1_txt=#{item.targtype1_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="item.targsubtype1 != null">
+                targsubtype1=#{item.targsubtype1,jdbcType=INTEGER},
+            </if>
+            <if test="item.targsubtype1_txt != null">
+                targsubtype1_txt=#{item.targsubtype1_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="item.corp1 != null">
+                corp1=#{item.corp1,jdbcType=VARCHAR},
+            </if>
+            <if test="item.target1 != null">
+                target1=#{item.target1,jdbcType=VARCHAR},
+            </if>
+            <if test="item.natlty1 != null">
+                natlty1=#{item.natlty1,jdbcType=INTEGER},
+            </if>
+            <if test="item.natlty1_txt != null">
+                natlty1_txt=#{item.natlty1_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="item.targtype2 != null">
+                targtype2=#{item.targtype2,jdbcType=INTEGER},
+            </if>
+            <if test="item.targtype2_txt != null">
+                targtype2_txt=#{item.targtype2_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="item.targsubtype2 != null">
+                targsubtype2=#{item.targsubtype2,jdbcType=INTEGER},
+            </if>
+            <if test="item.targsubtype2_txt != null">
+                targsubtype2_txt=#{item.targsubtype2_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="item.corp2 != null">
+                corp2=#{item.corp2,jdbcType=VARCHAR},
+            </if>
+            <if test="item.target2 != null">
+                target2=#{item.target2,jdbcType=VARCHAR},
+            </if>
+            <if test="item.natlty2 != null">
+                natlty2=#{item.natlty2,jdbcType=INTEGER},
+            </if>
+            <if test="item.natlty2_txt != null">
+                natlty2_txt=#{item.natlty2_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="item.targtype3 != null">
+                targtype3=#{item.targtype3,jdbcType=INTEGER},
+            </if>
+            <if test="item.targtype3_txt != null">
+                targtype3_txt=#{item.targtype3_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="item.targsubtype3 != null">
+                targsubtype3=#{item.targsubtype3,jdbcType=INTEGER},
+            </if>
+            <if test="item.targsubtype3_txt != null">
+                targsubtype3_txt=#{item.targsubtype3_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="item.corp3 != null">
+                corp3=#{item.corp3,jdbcType=VARCHAR},
+            </if>
+            <if test="item.target3 != null">
+                target3=#{item.target3,jdbcType=VARCHAR},
+            </if>
+            <if test="item.natlty3 != null">
+                natlty3= #{item.natlty3,jdbcType=INTEGER},
+            </if>
+            <if test="item.natlty3_txt != null">
+                natlty3_txt=#{item.natlty3_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="item.gname != null">
+                gname=#{item.gname,jdbcType=VARCHAR},
+            </if>
+            <if test="item.gsubname != null">
+                gsubname=#{item.gsubname,jdbcType=VARCHAR},
+            </if>
+            <if test="item.gname2 != null">
+                gname2=#{item.gname2,jdbcType=VARCHAR},
+            </if>
+            <if test="item.gsubname2 != null">
+                gsubname2=#{item.gsubname2,jdbcType=VARCHAR},
+            </if>
+            <if test="item.gname3 != null">
+                gname3=#{item.gname3,jdbcType=VARCHAR},
+            </if>
+            <if test="item.gsubname3 != null">
+                gsubname3=#{item.gsubname3,jdbcType=VARCHAR},
+            </if>
+            <if test="item.motive != null">
+                motive=#{item.motive,jdbcType=VARCHAR},
+            </if>
+            <if test="item.guncertain1 != null">
+                guncertain1=#{item.guncertain1,jdbcType=INTEGER},
+            </if>
+            <if test="item.guncertain2 != null">
+                guncertain2=#{item.guncertain2,jdbcType=INTEGER},
+            </if>
+            <if test="item.guncertain3 != null">
+                guncertain3=#{item.guncertain3,jdbcType=INTEGER},
+            </if>
+            <if test="item.individual != null">
+                individual=#{item.individual,jdbcType=INTEGER},
+            </if>
+            <if test="item.nperps != null">
+                nperps=#{item.nperps,jdbcType=INTEGER},
+            </if>
+            <if test="item.nperpcap != null">
+                nperpcap=#{item.nperpcap,jdbcType=INTEGER},
+            </if>
+            <if test="item.claimed != null">
+                claimed= #{item.claimed,jdbcType=INTEGER},
+            </if>
+            <if test="item.claimmode != null">
+                claimmode=#{item.claimmode,jdbcType=INTEGER},
+            </if>
+            <if test="item.claimmode_txt != null">
+                claimmode_txt=#{item.claimmode_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="item.claim2 != null">
+                claim2=#{item.claim2,jdbcType=INTEGER},
+            </if>
+            <if test="item.claimmode2 != null">
+                claimmode2=#{item.claimmode2,jdbcType=INTEGER},
+            </if>
+            <if test="item.claimmode2_txt != null">
+                claimmode2_txt= #{item.claimmode2_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="item.claim3 != null">
+                claim3= #{item.claim3,jdbcType=INTEGER},
+            </if>
+            <if test="item.claimmode3 != null">
+                claimmode3=#{item.claimmode3,jdbcType=INTEGER},
+            </if>
+            <if test="item.claimmode3_txt != null">
+                claimmode3_txt=#{item.claimmode3_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="item.compclaim != null">
+                compclaim=#{item.compclaim,jdbcType=INTEGER},
+            </if>
+            <if test="item.weaptype1 != null">
+                weaptype1= #{item.weaptype1,jdbcType=INTEGER},
+            </if>
+            <if test="item.weaptype1_txt != null">
+                weaptype1_txt=#{item.weaptype1_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="item.weapsubtype1 != null">
+                weapsubtype1=#{item.weapsubtype1,jdbcType=INTEGER},
+            </if>
+            <if test="item.weapsubtype1_txt != null">
+                weapsubtype1_txt=#{item.weapsubtype1_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="item.weaptype2 != null">
+                weaptype2= #{item.weaptype2,jdbcType=INTEGER},
+            </if>
+            <if test="item.weaptype2_txt != null">
+                weaptype2_txt= #{item.weaptype2_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="item.weapsubtype2 != null">
+                weapsubtype2 = #{item.weapsubtype2,jdbcType=INTEGER},
+            </if>
+            <if test="item.weapsubtype2_txt != null">
+                weapsubtype2_txt= #{item.weapsubtype2_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="item.weaptype3 != null">
+                weaptype3=#{item.weaptype3,jdbcType=INTEGER},
+            </if>
+            <if test="item.weaptype3_txt != null">
+                weaptype3_txt=#{item.weaptype3_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="item.weapsubtype3 != null">
+                weapsubtype3= #{item.weapsubtype3,jdbcType=INTEGER},
+            </if>
+            <if test="item.weapsubtype3_txt != null">
+                weapsubtype3_txt=#{item.weapsubtype3_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="item.weaptype4 != null">
+                weaptype4=#{item.weaptype4,jdbcType=INTEGER},
+            </if>
+            <if test="item.weaptype4_txt != null">
+                weaptype4_txt=#{item.weaptype4_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="item.weapsubtype4 != null">
+                weapsubtype4=#{item.weapsubtype4,jdbcType=INTEGER},
+            </if>
+            <if test="item.weapsubtype4_txt != null">
+                weapsubtype4_txt= #{item.weapsubtype4_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="item.weapdetail != null">
+                weapdetail=#{item.weapdetail,jdbcType=VARCHAR},
+            </if>
+            <if test="item.nkill != null">
+                nkill=#{item.nkill,jdbcType=INTEGER},
+            </if>
+            <if test="item.nkillus != null">
+                nkillus= #{item.nkillus,jdbcType=INTEGER},
+            </if>
+            <if test="item.nkillter != null">
+                nkillter= #{item.nkillter,jdbcType=INTEGER},
+            </if>
+            <if test="item.nwound != null">
+                nwound=#{item.nwound,jdbcType=INTEGER},
+            </if>
+            <if test="item.nwoundus != null">
+                nwoundus=#{item.nwoundus,jdbcType=INTEGER},
+            </if>
+            <if test="item.nwoundte != null">
+                nwoundte= #{item.nwoundte,jdbcType=INTEGER},
+            </if>
+            <if test="item.property != null">
+                property=#{item.property,jdbcType=INTEGER},
+            </if>
+            <if test="item.propextent != null">
+                propextent=#{item.propextent,jdbcType=INTEGER},
+            </if>
+            <if test="item.propextent_txt != null">
+                propextent_txt=#{item.propextent_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="item.propvalue != null">
+                propvalue= #{item.propvalue,jdbcType=DOUBLE},
+            </if>
+            <if test="item.propcomment != null">
+                propcomment=#{item.propcomment,jdbcType=VARCHAR},
+            </if>
+            <if test="item.ishostkid != null">
+                ishostkid= #{item.ishostkid,jdbcType=INTEGER},
+            </if>
+            <if test="item.nhostkid != null">
+                nhostkid=#{item.nhostkid,jdbcType=INTEGER},
+            </if>
+            <if test="item.nhostkidus != null">
+                nhostkidus=#{item.nhostkidus,jdbcType=INTEGER},
+            </if>
+            <if test="item.nhours != null">
+                nhours=#{item.nhours,jdbcType=DOUBLE},
+            </if>
+            <if test="item.ndays != null">
+                ndays=#{item.ndays,jdbcType=INTEGER},
+            </if>
+            <if test="item.divert != null">
+                divert=#{item.divert,jdbcType=VARCHAR},
+            </if>
+            <if test="item.kidhijcountry != null">
+                kidhijcountry=#{item.kidhijcountry,jdbcType=VARCHAR},
+            </if>
+            <if test="item.ransom != null">
+                ransom=#{item.ransom,jdbcType=INTEGER},
+            </if>
+            <if test="item.ransomamt != null">
+                ransomamt= #{item.ransomamt,jdbcType=DOUBLE},
+            </if>
+            <if test="item.ransomamtus != null">
+                ransomamtus=#{item.ransomamtus,jdbcType=INTEGER},
+            </if>
+            <if test="item.ransompaid != null">
+                ransompaid=#{item.ransompaid,jdbcType=DOUBLE},
+            </if>
+            <if test="item.ransompaidus != null">
+                ransompaidus= #{item.ransompaidus,jdbcType=DOUBLE},
+            </if>
+            <if test="item.ransomnote != null">
+                ransomnote=#{item.ransomnote,jdbcType=VARCHAR},
+            </if>
+            <if test="item.hostkidoutcome != null">
+                hostkidoutcome=#{item.hostkidoutcome,jdbcType=INTEGER},
+            </if>
+            <if test="item.hostkidoutcome_txt != null">
+                hostkidoutcome_txt=#{item.hostkidoutcome_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="item.nreleased != null">
+                nreleased=#{item.nreleased,jdbcType=INTEGER},
+            </if>
+            <if test="item.addnotes != null">
+                addnotes=#{item.addnotes,jdbcType=VARCHAR},
+            </if>
+            <if test="item.scite1 != null">
+                scite1= #{item.scite1,jdbcType=VARCHAR},
+            </if>
+            <if test="item.scite2 != null">
+                scite2=#{item.scite2,jdbcType=VARCHAR},
+            </if>
+            <if test="item.scite3 != null">
+                scite3=#{item.scite3,jdbcType=VARCHAR},
+            </if>
+            <if test="item.dbsource != null">
+                dbsource=#{item.dbsource,jdbcType=CHAR},
+            </if>
+            <if test="item.INT_LOG != null">
+                INT_LOG=#{item.INT_LOG,jdbcType=INTEGER},
+            </if>
+            <if test="item.INT_IDEO != null">
+                INT_IDEO= #{item.INT_IDEO,jdbcType=INTEGER},
+            </if>
+            <if test="item.INT_MISC != null">
+                INT_MISC=#{item.INT_MISC,jdbcType=INTEGER},
+            </if>
+            <if test="item.INT_ANY != null">
+                INT_ANY= #{item.INT_ANY,jdbcType=INTEGER},
+            </if>
+        </trim>
+        </foreach>
+    </insert>
+<!--注意逗号-->
+    <update id="updateByPrimaryKey" parameterType="bean.UpdateTo">
+        update tevent_all_info
+        <set>
+            <if test="eventid != null">
+                eventid = #{eventid,jdbcType=CHAR},
+            </if>
+            <if test="iyear != null">
+                iyear = #{iyear,jdbcType=INTEGER},
+            </if>
+            <if test="imonth != null">
+                imonth = #{imonth,jdbcType=INTEGER},
+            </if>
+            <if test="iday != null">
+                iday = #{iday,jdbcType=INTEGER},
+            </if>
+            <if test="approxdate != null">
+                approxdate = #{approxdate,jdbcType=VARCHAR},
+            </if>
+            <if test="extended != null">
+                extended = #{extended,jdbcType=INTEGER},
+            </if>
+            <if test="resolution != null">
+                resolution = #{resolution,jdbcType=VARCHAR},
+            </if>
+            <if test="country != null">
+                country = #{country,jdbcType=INTEGER},
+            </if>
+            <if test="country_txt != null">
+                country_txt = #{country_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="region != null">
+                region = #{region,jdbcType=INTEGER},
+            </if>
+            <if test="region_txt != null">
+                region_txt = #{region_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="provstate != null">
+                provstate = #{provstate,jdbcType=VARCHAR},
+            </if>
+            <if test="city != null">
+                city = #{city,jdbcType=VARCHAR},
+            </if>
+            <if test="latitude != null">
+                latitude = #{latitude,jdbcType=INTEGER},
+            </if>
+            <if test="longitude != null">
+                longitude = #{longitude,jdbcType=INTEGER},
+            </if>
+            <if test="specificity != null">
+                specificity = #{specificity,jdbcType=INTEGER},
+            </if>
+            <if test="vicinity != null">
+                vicinity = #{vicinity,jdbcType=INTEGER},
+            </if>
+            <if test="crit1 != null">
+                crit1 = #{crit1,jdbcType=INTEGER},
+            </if>
+            <if test="crit2 != null">
+                crit2 = #{crit2,jdbcType=INTEGER},
+            </if>
+            <if test="crit3 != null">
+                crit3 = #{crit3,jdbcType=INTEGER},
+            </if>
+            <if test="doubtterr != null">
+                doubtterr = #{doubtterr,jdbcType=INTEGER},
+            </if>
+            <if test="alternative != null">
+                alternative = #{alternative,jdbcType=INTEGER},
+            </if>
+            <if test="multiple != null">
+                multiple = #{multiple,jdbcType=INTEGER},
+            </if>
+            <if test="success != null">
+                success = #{success,jdbcType=INTEGER},
+            </if>
+            <if test="suicide != null">
+                suicide = #{suicide,jdbcType=INTEGER},
+            </if>
+            <if test="attacktype1 != null">
+                attacktype1 = #{attacktype1,jdbcType=INTEGER},
+            </if>
+            <if test="attacktype1_txt != null">
+                attacktype1_txt = #{attacktype1_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="attacktype2 != null">
+                attacktype2 = #{attacktype2,jdbcType=INTEGER},
+            </if>
+            <if test="attacktype2_txt != null">
+                attacktype2_txt = #{attacktype2_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="attacktype3 != null">
+                attacktype3 = #{attacktype3,jdbcType=INTEGER},
+            </if>
+            <if test="attacktype3_txt != null">
+                attacktype3_txt = #{attacktype3_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="targtype1 != null">
+                targtype1 = #{targtype1,jdbcType=INTEGER},
+            </if>
+            <if test="targtype1_txt != null">
+                targtype1_txt = #{targtype1_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="targsubtype1 != null">
+                targsubtype1 = #{targsubtype1,jdbcType=INTEGER},
+            </if>
+            <if test="targsubtype1_txt != null">
+                targsubtype1_txt = #{targsubtype1_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="corp1 != null">
+                corp1 = #{corp1,jdbcType=VARCHAR},
+            </if>
+            <if test="target1 != null">
+                target1 = #{target1,jdbcType=VARCHAR},
+            </if>
+            <if test="natlty1 != null">
+                natlty1 = #{natlty1,jdbcType=INTEGER},
+            </if>
+            <if test="natlty1_txt != null">
+                natlty1_txt = #{natlty1_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="targtype2 != null">
+                targtype2 = #{targtype2,jdbcType=INTEGER},
+            </if>
+            <if test="targtype2_txt != null">
+                targtype2_txt = #{targtype2_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="targsubtype2 != null">
+                targsubtype2 = #{targsubtype2,jdbcType=INTEGER},
+            </if>
+            <if test="targsubtype2_txt != null">
+                targsubtype2_txt = #{targsubtype2_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="corp2 != null">
+                corp2 = #{corp2,jdbcType=VARCHAR},
+            </if>
+            <if test="target2 != null">
+                target2 = #{target2,jdbcType=VARCHAR},
+            </if>
+            <if test="natlty2 != null">
+                natlty2 = #{natlty2,jdbcType=INTEGER},
+            </if>
+            <if test="natlty2_txt != null">
+                natlty2_txt = #{natlty2_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="targtype3 != null">
+                targtype3 = #{targtype3,jdbcType=INTEGER},
+            </if>
+            <if test="targtype3_txt != null">
+                targtype3_txt = #{targtype3_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="targsubtype3 != null">
+                targsubtype3 = #{targsubtype3,jdbcType=INTEGER},
+            </if>
+            <if test="targsubtype3_txt != null">
+                targsubtype3_txt = #{targsubtype3_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="corp3 != null">
+                corp3 = #{corp3,jdbcType=VARCHAR},
+            </if>
+            <if test="target3 != null">
+                target3 = #{target3,jdbcType=VARCHAR},
+            </if>
+            <if test="natlty3 != null">
+                natlty3 = #{natlty3,jdbcType=INTEGER},
+            </if>
+            <if test="natlty3_txt != null">
+                natlty3_txt = #{natlty3_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="gname != null">
+                gname = #{gname,jdbcType=VARCHAR},
+            </if>
+            <if test="gsubname != null">
+                gsubname = #{gsubname,jdbcType=VARCHAR},
+            </if>
+            <if test="gname2 != null">
+                gname2 = #{gname2,jdbcType=VARCHAR},
+            </if>
+            <if test="gsubname2 != null">
+                gsubname2 = #{gsubname2,jdbcType=VARCHAR},
+            </if>
+            <if test="gname3 != null">
+                gname3 = #{gname3,jdbcType=VARCHAR},
+            </if>
+            <if test="gsubname3 != null">
+                gsubname3 = #{gsubname3,jdbcType=VARCHAR},
+            </if>
+            <if test="motive != null">
+                motive = #{motive,jdbcType=VARCHAR},
+            </if>
+            <if test="guncertain1 != null">
+                guncertain1 = #{guncertain1,jdbcType=INTEGER},
+            </if>
+            <if test="guncertain2 != null">
+                guncertain2 = #{guncertain2,jdbcType=INTEGER},
+            </if>
+            <if test="guncertain3 != null">
+                guncertain3 = #{guncertain3,jdbcType=INTEGER},
+            </if>
+            <if test="individual != null">
+                individual = #{individual,jdbcType=INTEGER},
+            </if>
+            <if test="nperps != null">
+                nperps = #{nperps,jdbcType=INTEGER},
+            </if>
+            <if test="nperpcap != null">
+                nperpcap = #{nperpcap,jdbcType=INTEGER},
+            </if>
+            <if test="claimed != null">
+                claimed = #{claimed,jdbcType=INTEGER},
+            </if>
+            <if test="claimmode != null">
+                claimmode = #{claimmode,jdbcType=INTEGER},
+            </if>
+            <if test="claimmode_txt != null">
+                claimmode_txt = #{claimmode_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="claim2 != null">
+                claim2 = #{claim2,jdbcType=INTEGER},
+            </if>
+            <if test="claimmode2 != null">
+                claimmode2 = #{claimmode2,jdbcType=INTEGER},
+            </if>
+            <if test="claimmode2_txt != null">
+                claimmode2_txt = #{claimmode2_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="claim3 != null">
+                claim3 = #{claim3,jdbcType=INTEGER},
+            </if>
+            <if test="claimmode3 != null">
+                claimmode3 = #{claimmode3,jdbcType=INTEGER},
+            </if>
+            <if test="claimmode3_txt != null">
+                claimmode3_txt = #{claimmode3_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="compclaim != null">
+                compclaim = #{compclaim,jdbcType=INTEGER},
+            </if>
+            <if test="weaptype1 != null">
+                weaptype1 = #{weaptype1,jdbcType=INTEGER},
+            </if>
+            <if test="weaptype1_txt != null">
+                weaptype1_txt = #{weaptype1_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="weapsubtype1 != null">
+                weapsubtype1 = #{weapsubtype1,jdbcType=INTEGER},
+            </if>
+            <if test="weapsubtype1_txt != null">
+                weapsubtype1_txt = #{weapsubtype1_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="weaptype2 != null">
+                weaptype2 = #{weaptype2,jdbcType=INTEGER},
+            </if>
+            <if test="weaptype2_txt != null">
+                weaptype2_txt = #{weaptype2_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="weapsubtype2 != null">
+                weapsubtype2 = #{weapsubtype2,jdbcType=INTEGER},
+            </if>
+            <if test="weapsubtype2_txt != null">
+                weapsubtype2_txt = #{weapsubtype2_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="weaptype3 != null">
+                weaptype3 = #{weaptype3,jdbcType=INTEGER},
+            </if>
+            <if test="weaptype3_txt != null">
+                weaptype3_txt = #{weaptype3_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="weapsubtype3 != null">
+                weapsubtype3 = #{weapsubtype3,jdbcType=INTEGER},
+            </if>
+            <if test="weapsubtype3_txt != null">
+                weapsubtype3_txt = #{weapsubtype3_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="weaptype4 != null">
+                weaptype4 = #{weaptype4,jdbcType=INTEGER},
+            </if>
+            <if test="weaptype4_txt != null">
+                weaptype4_txt = #{weaptype4_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="weapsubtype4 != null">
+                weapsubtype4 = #{weapsubtype4,jdbcType=INTEGER},
+            </if>
+            <if test="weapsubtype4_txt != null">
+                weapsubtype4_txt = #{weapsubtype4_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="nkill != null">
+                nkill = #{nkill,jdbcType=INTEGER},
+            </if>
+            <if test="nkillus != null">
+                nkillus = #{nkillus,jdbcType=INTEGER},
+            </if>
+            <if test="nkillter != null">
+                nkillter = #{nkillter,jdbcType=INTEGER},
+            </if>
+            <if test="nwound != null">
+                nwound = #{nwound,jdbcType=INTEGER},
+            </if>
+            <if test="nwoundus != null">
+                nwoundus = #{nwoundus,jdbcType=INTEGER},
+            </if>
+            <if test="nwoundte != null">
+                nwoundte = #{nwoundte,jdbcType=INTEGER},
+            </if>
+            <if test="property != null">
+                property = #{property,jdbcType=INTEGER},
+            </if>
+            <if test="propextent != null">
+                propextent = #{propextent,jdbcType=INTEGER},
+            </if>
+            <if test="propextent_txt != null">
+                propextent_txt = #{propextent_txt,jdbcType=VARCHAR},
+            </if>
+            <if test="propvalue != null">
+                propvalue = #{propvalue,jdbcType=DOUBLE},
+            </if>
+            <if test="propcomment != null">
+                propcomment = #{propcomment,jdbcType=VARCHAR},
+            </if>
+            <if test="ishostkid != null">
+                ishostkid = #{ishostkid,jdbcType=INTEGER},
+            </if>
+            <if test="nhostkid != null">
+                nhostkid = #{nhostkid,jdbcType=INTEGER},
+            </if>
+            <if test="nhostkidus != null">
+                nhostkidus = #{nhostkidus,jdbcType=INTEGER},
+            </if>
+            <if test="nhours != null">
+                nhours = #{nhours,jdbcType=DOUBLE},
+            </if>
+            <if test="ndays != null">
+                ndays = #{ndays,jdbcType=INTEGER},
+            </if>
+            <if test="divert != null">
+                divert = #{divert,jdbcType=VARCHAR},
+            </if>
+            <if test="kidhijcountry != null">
+                kidhijcountry = #{kidhijcountry,jdbcType=VARCHAR},
+            </if>
+            <if test="ransom != null">
+                ransom = #{ransom,jdbcType=INTEGER},
+            </if>
+            <if test="ransomamt != null">
+                ransomamt = #{ransomamt,jdbcType=DOUBLE},
+            </if>
+            <if test="ransomamtus != null">
+                ransomamtus = #{ransomamtus,jdbcType=INTEGER},
+            </if>
+            <if test="ransompaid != null">
+                ransompaid = #{ransompaid,jdbcType=DOUBLE},
+            </if>
+            <if test="ransompaidus != null">
+                ransompaidus = #{ransompaidus,jdbcType=DOUBLE},
+            </if>
+            <if test="hostkidoutcome != null">
+                hostkidoutcome = #{hostkidoutcome,jdbcType=INTEGER},
+            </if>
+            <if test="nreleased != null">
+                nreleased = #{nreleased,jdbcType=INTEGER},
+            </if>
+            <if test="addnotes != null">
+                addnotes = #{addnotes,jdbcType=VARCHAR},
+            </if>
+            <if test="dbsource != null">
+                dbsource = #{dbsource,jdbcType=CHAR},
+            </if>
+            <if test="INT_LOG != null">
+                INT_LOG = #{INT_LOG,jdbcType=INTEGER},
+            </if>
+            <if test="INT_IDEO != null">
+                INT_IDEO = #{INT_IDEO,jdbcType=INTEGER},
+            </if>
+            <if test="INT_MISC != null">
+                INT_MISC = #{INT_MISC,jdbcType=INTEGER},
+            </if>
+            <if test="INT_ANY != null">
+                INT_ANY = #{INT_ANY,jdbcType=INTEGER},
+            </if>
+            <if test="location != null">
+                `location` = #{location,jdbcType=LONGVARCHAR},
+            </if>
+            <if test="summary != null">
+                summary = #{summary,jdbcType=LONGVARCHAR},
+            </if>
+            <if test="alternative_txt != null">
+                alternative_txt = #{alternative_txt,jdbcType=LONGVARCHAR},
+            </if>
+            <if test="weapdetail != null">
+                weapdetail = #{weapdetail,jdbcType=LONGVARBINARY},
+            </if>
+            <if test="ransomnote != null">
+                ransomnote = #{ransomnote,jdbcType=LONGVARCHAR},
+            </if>
+            <if test="hostkidoutcome_txt != null">
+                hostkidoutcome_txt = #{hostkidoutcome_txt,jdbcType=LONGVARCHAR},
+            </if>
+            <if test="scite1 != null">
+                scite1 = #{scite1,jdbcType=LONGVARCHAR},
+            </if>
+            <if test="scite2 != null">
+                scite2 = #{scite2,jdbcType=LONGVARCHAR},
+            </if>
+            <if test="scite3 != null">
+                scite3 = #{scite3,jdbcType=LONGVARCHAR},
+            </if>
+        </set>
+        where eventid = #{oldId,jdbcType=CHAR}
+    </update>
+
+    <!--<insert id="addEvent" parameterMap="bean.TerrorEvent">-->
+        <!--&lt;!&ndash;INSERT INTO tevent_all_info_copy(IDX,eventid)&ndash;&gt;-->
+        <!--&lt;!&ndash;&lt;!&ndash;#{as same as bean.TerrorEvent} &ndash;&gt;&ndash;&gt;-->
+        <!--&lt;!&ndash;VALUES(#{})&ndash;&gt;-->
+    <!--</insert>-->
+</mapper>

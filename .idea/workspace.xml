@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="projectDM:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/model/Explorer.jfd" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1799e433-87d1-4ffc-b163-4754a1d0d46a" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="projectDM" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/UpdateEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1558006167132" expanded="true" signature="7013:12047" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+                <marker date="1558006167132" expanded="true" signature="12059:12553" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/queryEvents.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1335">
+              <caret line="93" column="45" selection-start-line="93" selection-start-column="45" selection-end-line="93" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1555329510237" expanded="false" signature="7492:108126" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+                <marker date="1555329510237" expanded="false" signature="108514:109954" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/addEvents.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="68" column="36" lean-forward="true" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1558002312733" expanded="true" signature="4577:8603" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+                <marker date="1558002312733" expanded="true" signature="8615:9045" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mapper/TerrorEvent.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6050">
+              <caret line="242" column="56" selection-start-line="242" selection-start-column="56" selection-end-line="242" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>outlook</find>
+      <find>Visualize</find>
+      <find>Plot</find>
+      <find>PlotData2D</find>
+      <find>VisualizeP</find>
+      <find>class colour</find>
+      <find>m_classSurround</find>
+      <find>VisualizePanel</find>
+      <find>visualizeClusterAssignments</find>
+      <find>Clusterer</find>
+      <find>attribute</find>
+      <find>temp</find>
+      <find>temp_</find>
+      <find>setInstances</find>
+      <find>ClustererAssignmentsPlotInstances</find>
+      <find>Instances</find>
+      <find>Cluster</find>
+      <find>getCapabilities</find>
+      <find>currentSchemeCapabilities</find>
+      <find>clusterer</find>
+      <find>set</find>
+      <find>label9</find>
+      <find>label19</find>
+      <find>clusterer_test</find>
+      <find>getSearchEvent</find>
+      <find>insert</find>
+      <find>weaptype3</find>
+      <find>targtype3_txt</find>
+      <find>iy</find>
+      <find>Workbook</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Integer</replace>
+      <replace>_txt</replace>
+      <replace>dataColum</replace>
+      <replace>double</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>F:\论文\2019-2020毕业论文\jar\《数据挖掘与机器学习WEKA应用技术与实践》源代码\libs\weka.jar</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/addEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/ExcelReader.java" />
+        <option value="$PROJECT_DIR$/src/bean/test/TeventAllInfoCopyWithBLOBs.java" />
+        <option value="$PROJECT_DIR$/src/dao/test/TeventAllInfoCopyDAO.java" />
+        <option value="$PROJECT_DIR$/src/dao/test/MyBatisBaseDao.java" />
+        <option value="$PROJECT_DIR$/src/main/readExcel.java" />
+        <option value="$PROJECT_DIR$/src/main/readexcel/readExcel.java" />
+        <option value="$PROJECT_DIR$/src/main/readexcel/Reflect.java" />
+        <option value="$PROJECT_DIR$/src/main/readexcel/Handler.java" />
+        <option value="$PROJECT_DIR$/src/bean/test/TeventAllInfoCopy.java" />
+        <option value="$PROJECT_DIR$/src/bean/ExcelInput.java" />
+        <option value="$PROJECT_DIR$/src/bean/TerrorEvent.java" />
+        <option value="$PROJECT_DIR$/src/mapper/test/TeventAllInfoCopyDAO.xml" />
+        <option value="$PROJECT_DIR$/src/main/addEvents.jfd" />
+        <option value="$PROJECT_DIR$/src/main/UpdateSetTableModel.java" />
+        <option value="$PROJECT_DIR$/src/bean/test/UpdateEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/UpdateEvent.jfd" />
+        <option value="$PROJECT_DIR$/src/bean/InstancesInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/ResultSetTableModel.java" />
+        <option value="$PROJECT_DIR$/src/bean/getEachEventData.java" />
+        <option value="$PROJECT_DIR$/src/main/model/AttributeSelectTableModel.java" />
+        <option value="$PROJECT_DIR$/src/bean/EventAttribute.java" />
+        <option value="$PROJECT_DIR$/src/main/model/Correlation.java" />
+        <option value="$PROJECT_DIR$/src/main/model/attr.txt" />
+        <option value="$PROJECT_DIR$/src/main/model/index1.csv" />
+        <option value="$PROJECT_DIR$/src/main/model/readIndex.java" />
+        <option value="$PROJECT_DIR$/src/main/model/SetWeight.java" />
+        <option value="$PROJECT_DIR$/src/main/model/bean/Index1.java" />
+        <option value="$PROJECT_DIR$/src/main/model/index/index1.csv" />
+        <option value="$PROJECT_DIR$/src/main/model/ReadIndex.java" />
+        <option value="$PROJECT_DIR$/src/main/model/clusters/EMcluster.java" />
+        <option value="$PROJECT_DIR$/src/main/model/clusters/SimpleKMeans/SimpleKMeans.java" />
+        <option value="$PROJECT_DIR$/src/main/model/clusters/EM/EMcluster.java" />
+        <option value="$PROJECT_DIR$/src/main/model/WeightHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/GtdGUIChooser.jfd" />
+        <option value="$PROJECT_DIR$/src/main/GtdGUIChooser.java" />
+        <option value="$PROJECT_DIR$/src/main/model/VisualizeCluster.java" />
+        <option value="$PROJECT_DIR$/src/main/queryEvents.jfd" />
+        <option value="$PROJECT_DIR$/src/bean/QueryTo.java" />
+        <option value="$PROJECT_DIR$/src/main/queryEvents.java" />
+        <option value="$PROJECT_DIR$/src/test/NewTest.java" />
+        <option value="$PROJECT_DIR$/src/main/model/Explorer.jfd" />
+        <option value="$PROJECT_DIR$/src/main/model/clusters/SimpleKMeans/KMeans.java" />
+        <option value="$PROJECT_DIR$/src/main/model/Explorer.java" />
+        <option value="$PROJECT_DIR$/src/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/dao/EventMapper.java" />
+        <option value="$PROJECT_DIR$/src/config/Configure.xml" />
+        <option value="$PROJECT_DIR$/src/mapper/TerrorEvent.xml" />
+        <option value="$PROJECT_DIR$/src/main/XlsxPaese.java" />
+        <option value="$PROJECT_DIR$/src/main/addEvents.java" />
+        <option value="$PROJECT_DIR$/src/main/UpdateEvent.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="projectDM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectDM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectDM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectDM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectDM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectDM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectDM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectDM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectDM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectDM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectDM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectDM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectDM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectDM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectDM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectDM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="clusters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectDM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectDM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="clusters" type="462c0819:PsiDirectoryNode" />
+              <item name="SimpleKMeans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectDM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectDM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558006981983" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="D:/Weka-3-8/weka_jar/weka-src/src/main/java/weka" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.21841542" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\论文\2019-2020毕业论文\projectDM\src\main\model" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\论文\2019-2020毕业论文\projectDM\src\main\model\index" />
+      <recent name="F:\论文\2019-2020毕业论文\projectDM\src\config\input\country_txt" />
+      <recent name="F:\论文\2019-2020毕业论文\projectDM\src\mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.16228747" />
+  </component>
+  <component name="RunManager" selected="Application.Run">
+    <configuration name="Explorer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.model.Explorer" />
+      <module name="projectDM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Run" />
+      <module name="projectDM" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projectDM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.NewTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewTest.weka" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projectDM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.NewTest" />
+      <option name="METHOD_NAME" value="weka" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.weka" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projectDM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.Test" />
+      <option name="METHOD_NAME" value="weka" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Run" />
+        <item itemvalue="Application.Explorer" />
+        <item itemvalue="JUnit.NewTest.test1" />
+        <item itemvalue="JUnit.NewTest.weka" />
+        <item itemvalue="JUnit.Test.weka" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1799e433-87d1-4ffc-b163-4754a1d0d46a" name="Default Changelist" comment="" />
+      <created>1552139129879</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552139129879</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="NewTest_weka - 2019.04.10 at 18h 51m 22s.xml">
+      <configuration name="NewTest.weka" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewTest_weka - 2019.04.10 at 18h 55m 54s.xml">
+      <configuration name="NewTest.weka" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewTest_weka - 2019.04.10 at 19h 05m 08s.xml">
+      <configuration name="NewTest.weka" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewTest_weka - 2019.04.10 at 19h 06m 45s.xml">
+      <configuration name="NewTest.weka" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewTest_weka - 2019.04.10 at 19h 08m 23s.xml">
+      <configuration name="NewTest.weka" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewTest_weka - 2019.04.10 at 19h 11m 21s.xml">
+      <configuration name="NewTest.weka" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewTest_test1 - 2019.04.15 at 19h 52m 36s.xml">
+      <configuration name="NewTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewTest_test1 - 2019.04.15 at 19h 53m 05s.xml">
+      <configuration name="NewTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewTest_test1 - 2019.04.15 at 19h 54m 00s.xml">
+      <configuration name="NewTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewTest_test1 - 2019.04.15 at 19h 54m 46s.xml">
+      <configuration name="NewTest.test1" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4942717" visible="true" weight="0.22012103" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.5057283" side_tool="true" visible="true" weight="0.22012103" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5057283" side_tool="true" weight="0.22012103" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.41571194" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.33060557" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run Dashboard" order="8" sideWeight="0.4977307" weight="0.40589198" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50226927" side_tool="true" weight="0.32569557" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32569557" />
+      <window_info anchor="bottom" id="JFormDesigner Bindings" order="12" weight="0.24386252" />
+      <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.3289689" />
+      <window_info anchor="bottom" id="JFormDesigner Error Log" order="14" weight="0.29787233" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.24962178" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.32980332" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="countmissing(inst)" />
+        <watch expression="countmissing(inst)&gt;50.0" />
+        <watch expression="!(inst.attribute(j).isNumeric())" />
+        <watch expression="inst.stringValue(j)" />
+        <watch expression="100*count_missing/inst.numAttributes()" />
+        <watch expression="        options[0]=&quot;-N&quot;;&#10;        options[1]=&quot;&quot;;&#10;        options[2]=&quot;-R&quot;;&#10;        options[3]=&quot;-1&quot;;" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>age</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/model/index1.csv" />
+    <entry file="jar://$PROJECT_DIR$/../jar/《数据挖掘与机器学习WEKA应用技术与实践》源代码/libs/weka.jar!/weka/core/Instances.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4725">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/bean/Index1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1107#1108#0" expanded="true" />
+            <element signature="e#1139#1140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jar/《数据挖掘与机器学习WEKA应用技术与实践》源代码/libs/weka.jar!/weka/core/Instance.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="88" column="13" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/index/index1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-650">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/ReadIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-526">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jar/《数据挖掘与机器学习WEKA应用技术与实践》源代码/libs/weka.jar!/weka/clusterers/SimpleKMeans.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jar/《数据挖掘与机器学习WEKA应用技术与实践》源代码/libs/weka.jar!/weka/clusterers/EM.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-525">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="975" column="19" selection-start-line="975" selection-start-column="19" selection-end-line="975" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/WeightHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1316#1327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/GtdGUIChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="139" column="40" lean-forward="true" selection-start-line="139" selection-start-column="40" selection-end-line="139" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6362#6520#0" expanded="true" />
+            <element signature="e#6519#6520#0" expanded="true" />
+            <marker date="1554962051703" expanded="true" signature="5533:13554" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1554962051703" expanded="true" signature="13566:14282" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/GtdGUIChooser.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state paletteWidth="167" structureHeight="251" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jar/《数据挖掘与机器学习WEKA应用技术与实践》源代码/libs/weka.jar!/weka/core/Utils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="624" column="25" selection-start-line="624" selection-start-column="25" selection-end-line="624" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/VisualizeCluster.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/model/VisualizeCluster.jfd" />
+    <entry file="file://$PROJECT_DIR$/src/main/model/clusters/EM/EMcluster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jar/《数据挖掘与机器学习WEKA应用技术与实践》源代码/libs/weka.jar!/weka/gui/visualize/plugins/VisualizePlugin.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jar/《数据挖掘与机器学习WEKA应用技术与实践》源代码/libs/weka.jar!/weka/gui/explorer/AssociationsPanel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jar/《数据挖掘与机器学习WEKA应用技术与实践》源代码/libs/weka.jar!/weka/gui/explorer/AttributeSelectionPanel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="99" column="13" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jar/《数据挖掘与机器学习WEKA应用技术与实践》源代码/libs/weka.jar!/weka/gui/explorer/Explorer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jar/《数据挖掘与机器学习WEKA应用技术与实践》源代码/libs/weka.jar!/weka/gui/explorer/Explorer.props">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-777" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jar/《数据挖掘与机器学习WEKA应用技术与实践》源代码/libs/weka.jar!/weka/gui/AbstractPerspective.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jar/《数据挖掘与机器学习WEKA应用技术与实践》源代码/libs/weka.jar!/weka/gui/explorer/PreprocessPanel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="328" column="37" selection-start-line="328" selection-start-column="34" selection-end-line="328" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jar/《数据挖掘与机器学习WEKA应用技术与实践》源代码/libs/weka.jar!/weka/gui/explorer/VisualizePanel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jar/《数据挖掘与机器学习WEKA应用技术与实践》源代码/libs/weka.jar!/weka/gui/explorer/AbstractPlotInstances.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jar/《数据挖掘与机器学习WEKA应用技术与实践》源代码/libs/weka.jar!/weka/gui/visualize/VisualizePanel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="53" column="27" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jar/《数据挖掘与机器学习WEKA应用技术与实践》源代码/libs/weka.jar!/weka/gui/GenericObjectEditor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="708" column="24" selection-start-line="708" selection-start-column="24" selection-end-line="708" selection-end-column="24" />
+          <folding>
+            <element signature="e#26069#26070#0" expanded="true" />
+            <element signature="e#26117#26118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jar/《数据挖掘与机器学习WEKA应用技术与实践》源代码/libs/weka.jar!/weka/gui/explorer/ClustererPanel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="279" column="11" lean-forward="true" selection-start-line="279" selection-start-column="11" selection-end-line="279" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jar/《数据挖掘与机器学习WEKA应用技术与实践》源代码/libs/weka.jar!/weka/gui/explorer/ExplorerDefaults.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="204" column="52" selection-start-line="204" selection-start-column="52" selection-end-line="204" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jar/《数据挖掘与机器学习WEKA应用技术与实践》源代码/libs/weka.jar!/weka/gui/explorer/ClustererAssignmentsPlotInstances.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/queryEvents.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state propertiesWidth="343" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/NewTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/output/score.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/clusters/SimpleKMeans/KMeans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/Explorer.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state paletteWidth="224" propertiesWidth="162" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/Explorer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10000">
+          <caret line="447" column="49" selection-start-line="447" selection-start-column="49" selection-end-line="447" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1555500275915" expanded="true" signature="23066:71354" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1555500275915" expanded="true" signature="71365:74837" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/TerrorEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/QueryTo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
+          <folding>
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#1518#1519#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="102" column="42" selection-start-line="102" selection-start-column="42" selection-end-line="102" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6831#6832#0" expanded="true" />
+            <element signature="e#6876#6877#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jar/mybatis-3.5.0/mybatis-3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="275" column="19" lean-forward="true" selection-start-line="275" selection-start-column="19" selection-end-line="275" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jar/mybatis-3.5.0/mybatis-3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/exceptions/ExceptionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/getEachEventData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/ExcelInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5438">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/Configure.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="19" column="81" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/XlsxPaese.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#1120#1149#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/EventMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UpdateEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1558006167132" expanded="true" signature="7013:12047" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1558006167132" expanded="true" signature="12059:12553" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapper/TerrorEvent.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6050">
+          <caret line="242" column="56" selection-start-line="242" selection-start-column="56" selection-end-line="242" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/queryEvents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="93" column="45" selection-start-line="93" selection-start-column="45" selection-end-line="93" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1555329510237" expanded="false" signature="7492:108126" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1555329510237" expanded="false" signature="108514:109954" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/addEvents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="68" column="36" lean-forward="true" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1558002312733" expanded="true" signature="4577:8603" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1558002312733" expanded="true" signature="8615:9045" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>projectDM:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.21841542" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.21841542" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>projectDM</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33294392" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>commons-csv-1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33294392" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
