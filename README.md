@@ -10,39 +10,71 @@
 
 ## 系统功能模块
 根据系统分析将系统划分为恐怖事件信息查询、恐怖事件信息编辑、恐怖事件信息添加、恐怖事件危害评级四个功能模块
+
 ![alt 系统功能](https://github.com/dpoqb/Terrorist_Attack_Hazard_Rating_System/blob/master/img/%E7%B3%BB%E7%BB%9F%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97%E5%9B%BE.jpg)
+
 ### 主界面
+
 ![alt main](https://github.com/dpoqb/Terrorist_Attack_Hazard_Rating_System/blob/master/img/i1.png)
+
 ### 恐怖事件信息查询界面
+
 ![](https://github.com/dpoqb/Terrorist_Attack_Hazard_Rating_System/blob/master/img/i2.png)
+
 ### 恐怖事件信息添加界面
+
 ![](https://github.com/dpoqb/Terrorist-Attack-Hazard-Rating-System/blob/master/img/i3.png)
+
 ### 恐怖信息编辑界面
+
 ![](https://github.com/dpoqb/Terrorist_Attack_Hazard_Rating_System/blob/master/img/i4.png)
+
 ### 恐怖事件危害评级模型数据预处理界面
+
 ![](https://github.com/dpoqb/Terrorist_Attack_Hazard_Rating_System/blob/master/img/i5.png)
+
 ### 属性信息
+
 ![](https://github.com/dpoqb/Terrorist_Attack_Hazard_Rating_System/blob/master/img/i6.png)
+
 ### 指标体系处理界面
+
 ![](https://github.com/dpoqb/Terrorist_Attack_Hazard_Rating_System/blob/master/img/i7.png)
+
 ### 聚类器及结果输出界面
+
 ![](https://github.com/dpoqb/Terrorist_Attack_Hazard_Rating_System/blob/master/img/i8.png)
+
 ### 聚类器参数设置界面
+
 ![](https://github.com/dpoqb/Terrorist_Attack_Hazard_Rating_System/blob/master/img/i9.png)
+
 ### 可视化
+
 ![](https://github.com/dpoqb/Terrorist_Attack_Hazard_Rating_System/blob/master/img/i10.png)
 
 ## 恐怖袭击事件危害评级流程
 ### 数据准备以及预处理
+
 ![](https://github.com/dpoqb/Terrorist_Attack_Hazard_Rating_System/blob/master/img/i11.png)
+
 ### 模型参数设置
+
 ![](https://github.com/dpoqb/Terrorist_Attack_Hazard_Rating_System/blob/master/img/i12.png)
+
 ### 输出
 #### 聚类结果
+
 ![](https://github.com/dpoqb/Terrorist_Attack_Hazard_Rating_System/blob/master/img/i13.png)
+
 #### 评级结果
+
 ![](https://github.com/dpoqb/Terrorist_Attack_Hazard_Rating_System/blob/master/img/i14.png)
+
 #### 每个等级包含的事件数
+
 ![](https://github.com/dpoqb/Terrorist_Attack_Hazard_Rating_System/blob/master/img/i15.png)
+
 #### 可视化
+
 ![](https://github.com/dpoqb/Terrorist_Attack_Hazard_Rating_System/blob/master/img/i16.png)
